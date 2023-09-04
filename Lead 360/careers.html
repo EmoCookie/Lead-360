@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead 360</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt="company logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="careers.html">CAREERS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Careers</h1>
+    </section>
+
+    <!----Careers---->
+    <sectio class="locations">
+        <h1>Careers At Lead 360</h1>
+        <p>Take a look at the various career opportunities provided at Lead 360. There is a chance for almost everyone!</p>
+        <div class="row">
+            <div class="location-col">
+                <h3>Internships</h3>
+                <p>Our company offers dynamic internships, providing invaluable hands-on experience, mentorship, and a platform to kickstart your career journey. Join us and unlock your potential today!</p>
+            </div>
+            <div class="location-col">
+                <h3>Training</h3>
+                <p>Elevate your skills with our comprehensive training programs. We provide expert guidance, hands-on experience, and the tools you need to excel in your chosen field. Invest in your future with us.</p>
+            </div>
+            <div class="location-col">
+                <h3>Work-life Balance</h3>
+                <p>Embrace work-life balance with our flexible opportunities. Whether remote or hybrid, we empower you to tailor your work environment to suit your lifestyle while achieving professional success. Join us today!</p>
+            </div>
+        </div>
+    </section>
+    <!----Career Opportunities---->
+    <section class="facilities">
+        <h1>Our Top Departments</h1>
+        <p>Our company is a dynamic hub of expertise, specializing in diverse departments such as cybersecurity, marketing, and more. We're passionate about innovation and offer exciting career prospects. If you're ready to embark on a journey of growth and impact, email us at <a href="mailto:fake-email@xxx.com" target="_top">fake-email@xxx.com</a> to explore how you can join our team of talented professionals and make your mark in the ever-evolving world of technology and business.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/tech.jpg" alt="employee discussion">
+                <h3>Cybersecurity</h3>
+                <p>We are a leading cybersecurity firm, dedicated to safeguarding your digital assets. Our cutting-edge solutions and expert team ensure unparalleled protection against evolving cyber threats.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/accounting.jpg" alt="employees doing accounts">
+                <h3>Accounting and Finance</h3>
+                <p>Our firm specializes in accounting and finance, offering comprehensive financial solutions tailored to your needs. With expertise and precision, we optimize your financial strategies for success.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/marketing.jpg" alt="man doing presentation">
+                <h3>Marketing</h3>
+                <p>We are also a marketing powerhouse, leveraging data-driven strategies and creative expertise to drive your brand's success. Elevate your marketing game with us and thrive in the digital landscape.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----Footer---->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lead 360 is all about the people.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa linkedin"></i>
+        </div>
+        <p>© Fathima Aslam</p>
+    </section>
+
+    <!---- JavaScript for Toggle Menu ------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

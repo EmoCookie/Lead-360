@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead 360</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt="company logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="careers.html">CAREERS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Life At Lead 360</h1>
+    </section>
+    <!----Blog Page Content---->
+   <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/cafeteria.jpg" alt="company cafeteria">
+            <h2>Fostering Tradition and Innovation: The Uniqueness of Our Company</h2>
+            <p>In today's fast-paced corporate world, where innovation and tradition often seem like opposing forces, our company stands as a shining example of how these two aspects can harmoniously coexist. With branches that seamlessly blend modern and ancient architecture to adapt to the spirit of the cities they're located in, we are committed to creating environments that honor local history while embracing cutting-edge business practices. One of the most intriguing features of our workplace is our cafeteria area, meticulously designed to cater to the diverse preferences of our employees. For those seeking solitude during their mealtime, private spaces abound. Meanwhile, those who thrive on collaboration can enjoy dedicated areas where they can exchange ideas and brainstorm even over lunch.</p><br>
+            <p>Moreover, we are more than just a place to work; we are a community that encourages employees to actively engage in various activities. From team-building exercises to workshops and seminars, we believe in fostering an environment that nurtures both personal and professional growth. One of our most cherished traditions is our annual charity event, where we unite as a company to raise funds for a worthy cause.</p><br>
+            <p>In the wake of the COVID-19 pandemic, our commitment to making a positive impact on the world became even more pronounced. In 2020, we organized an online gaming event to raise money for families severely impacted by the economic fallout of the pandemic. In 2021, we ventured to Italy for a food festival, aimed at supporting children who had to abandon their education due to financial hardships. Our dedication to these charitable endeavors continued in 2022 with a musical twist—a concert in Switzerland where our talented employees showcased their skills, raising funds for cancer research.</p><br>
+            <p>2023 marked another significant milestone as we spread our charity efforts globally. We organized a sports event in the United States and an e-sports competition in Japan, collectively contributing to surgical operations for families in need. However, our commitment to our employees is not limited to charity work. We recognize the importance of work-life balance, offering a generous 50-day paid leave to our employees. Moreover, we understand the challenges faced by working parents and have established a dedicated area for them to leave their children, staffed with qualified tutors to ensure the well-being of these young ones.</p><br>
+            <p>In conclusion, our company is not just a workplace; it's a vibrant community that seamlessly merges tradition with innovation, where employees are not only encouraged to grow professionally but also to actively contribute to making the world a better place. Our unique blend of architectural design, commitment to charitable causes, and unwavering support for our employees sets us apart in the corporate world, reminding us that in the pursuit of success, compassion and community should never be overlooked.</p>
+            <div class="comment-box">
+                <h3>Leave A Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Our Branches</h3>
+            <div>
+                <span>Azerbaijan</span>
+                <span>3</span>
+            </div>
+            <div>
+                <span>China</span>
+                <span>6</span>
+            </div>
+            <div>
+                <span>Finland</span>
+                <span>4</span>
+            </div>
+            <div>
+                <span>Italy</span>
+                <span>5</span>
+            </div>
+            <div>
+                <span>Japan</span>
+                <span>6</span>
+            </div>
+            <div>
+                <span>Luxembourg</span>
+                <span>4</span>
+            </div>
+            <div>
+                <span>Malaysia</span>
+                <span>6</span>
+            </div>
+            <div>
+                <span>Qatar</span>
+                <span>7</span>
+            </div>
+            <div>
+                <span>Switzerland</span>
+                <span>5</span>
+            </div>
+            <div>
+                <span>United States</span>
+                <span>8</span>
+            </div>
+            <div>
+                <span>Vietnam</span>
+                <span>6</span>
+            </div>
+        </div>
+    </div>
+   </section>
+
+    <!----Footer---->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lead 360 is all about the people.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa linkedin"></i>
+        </div>
+        <p>© Fathima Aslam</p>
+    </section>
+
+    <!---- JavaScript for Toggle Menu ------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
